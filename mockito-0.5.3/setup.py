@@ -11,8 +11,8 @@ extra = {}
 if sys.version_info >= (3,):
     extra['use_2to3'] = True
 
-setup(name='mockito-without-hardcoded-distribute-version',
-      version='0.5.2',
+setup(name='mockito-lwoydziak',
+      version='0.5.3',
       packages=['mockito', 'mockito_test', 'mockito_util'],
       url='http://code.google.com/p/mockito-python',
       download_url='http://code.google.com/p/mockito-python/downloads/list',
@@ -20,7 +20,7 @@ setup(name='mockito-without-hardcoded-distribute-version',
       maintainer_email='mockito-python@googlegroups.com',
       license='MIT',
       description='Spying framework',
-      long_description='Mockito is a spying framework based on Java library with the same name.',
+      long_description="Mockito is a spying framework based on Java library with the same name. \n Source at: https://github.com/lwoydziak/mockito-without-hardcoded-distribute-version",
       classifiers=['Development Status :: 4 - Beta',
                    'Intended Audience :: Developers',
                    'License :: OSI Approved :: MIT License',
